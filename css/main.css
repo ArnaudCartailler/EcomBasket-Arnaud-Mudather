@@ -97,10 +97,60 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  header{
+    display: block;
+  }
 
+  header a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color : grey;
+  }
 
+  header .main{
+    text-align: right;
+  }
 
+  header a:hover{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
 
+  .container-fluid .row{
+    width : 70%;
+    margin: auto;
+  }
+
+  .container-fluid .row .product{
+    margin-top: 10%;
+  }
+
+  .container-fluid .row .product:hover{
+    border : 1px solid grey;
+  }
+
+  .container-fluid .row img{
+    width : auto;
+  }
+
+  .container-fluid .row .spec{
+    border-top: 1px solid lightgrey;
+    border-bottom: none;
+  }
+
+  .container-fluid .row .spec p{
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: bold;
+    line-height: 8px;
+  }
+
+  .container-fluid .row .spec .price{
+    font-family: serif;
+    font-weight: lighter;
+    color: grey;
+  }
 
 
 
@@ -199,8 +249,42 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 35em)  {
+
+  header a{
+    font-size: 20px;
+    margin: auto;
+  }
+
+  header .enterprise{
+    width : 50%;
+  }
+
+  header .main{
+     width : 50%;
+  }
+}
+
+@media only screen and (min-width: 561px) and (max-width: 767px) {
+
+  header .enterprise{
+    width : 50%;
+  }
+
+  header .main{
+     width : 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 921px) {
+
+  .container-fluid .row .spec p{
+    margin-top: 10px;
+    font-family: serif;
+    font-weight: bold;
+    line-height: 15px;
+  }
+
 }
 
 @media print,
