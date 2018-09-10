@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
 
       <div class="product col-md-3 col-sm-6">
         <a href="product-dunk.php">
-          <img class="img-fluid" width="250" src="img/basketdunk.jpg">
+          <img class="img-fluid" width="250" src="img/basketdunk.jpg" alt="basketdunk">
         </a>
           <div class="spec">
             <p>Basket-Dunk</p>
@@ -37,7 +38,7 @@
 
       <div class="product col-md-3 col-sm-6">
         <a href="product-ceyue.php">
-          <img class="img-fluid" width="250" src="img/ceyue.jpg">
+          <img class="img-fluid" width="250" src="img/ceyue.jpg" alt="basket-ceyue">
         </a>
           <div class="spec">
             <p>Basket-Ceyue</p>
@@ -47,7 +48,7 @@
 
       <div class="product col-md-3 col-sm-6">
         <a href="product-spider.php">
-          <img class="img-fluid" width="250" src="img/spider.jpg">
+          <img class="img-fluid" width="250" src="img/spider.jpg" alt="basket-spider">
         </a>
         <div class="spec">
           <p>Basket-Spider</p>
@@ -57,7 +58,7 @@
 
       <div class="product col-md-3 col-sm-6">
         <a href ="product-reb.php">
-          <img class="img-fluid" width="250" src="img/reb.jpg">
+          <img class="img-fluid" width="250" src="img/reb.jpg" alt="basket-reb">
         </a>
         <div class="spec">
           <p>Basket-Reb</p>
@@ -68,7 +69,7 @@
 </div>
 
 
-<!-- <?php include("footer.php"); ?> -->
+<?php include("footer.php"); ?>
 
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>

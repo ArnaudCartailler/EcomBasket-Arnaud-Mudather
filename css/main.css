@@ -97,8 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*header*/
   header{
     display: block;
+    border-bottom: 2px solid lightgrey;
   }
 
   header a{
@@ -117,6 +119,31 @@ textarea {
     transition: 0.5s;
   }
 
+  /*footer*/
+
+  footer .social{
+    display: flex;
+    width : 100%;
+    margin-top: 170px;
+    justify-content: flex-end;
+    border-top: 2px solid lightgrey;
+  }
+
+  footer .facebook, .twitter{
+    margin : 10px 40px 0px 0px;
+  }
+
+  footer i{
+    color : black;
+  }
+
+  footer i:hover{
+    color : grey;
+    transition: 0.8s;
+  }
+
+  /*main page*/
+
   .container-fluid .row{
     width : 70%;
     margin: auto;
@@ -133,6 +160,11 @@ textarea {
   .container-fluid .row img{
     width : auto;
   }
+
+.container-fluid .row img:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
 
   .container-fluid .row .spec{
     border-top: 1px solid lightgrey;
