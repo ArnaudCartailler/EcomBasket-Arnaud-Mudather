@@ -1,36 +1,4 @@
 
-    <!-- <style>
-        h2 {
-            margin-left: 36px;
-        }
-
-        h4 {
-            display: inline-block;
-            padding-left: 40px;
-        }
-
-
-        h6 {
-            margin-left: 60px;
-        }
-
-
-        .row p {
-            border: solid 2px black;
-            max-width: 40px;
-            text-align: center;
-
-
-        }
-
-
-        .image {
-            text-align: center;
-        }
-
-    </style> -->
-
-
 <?php include("header.php"); ?>
 
 <?php include("data.php"); ?>
