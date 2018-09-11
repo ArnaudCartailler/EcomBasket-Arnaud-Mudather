@@ -23,50 +23,79 @@
 
 <?php include("header.php"); ?>
 
+
+<?php
+
+$products = array (
+
+  array(
+    'name' => 'Basket-Dunk',
+    'price' => '80€',
+    'size' =>'43',
+    'src' => 'img/basketdunk.jpg',
+    'color' =>'blanc',
+    'stock' => 'oui',
+    'summary' => 'Produit fait pour la pratique du basket-ball',
+    ),
+
+    array(
+      'name' => 'Basket-Ceyue',
+      'price' => '120€',
+      'size' =>'43',
+      'src' => 'img/ceyue.jpg',
+      'color' =>'blanc',
+      'stock' => 'oui',
+      'summary' => 'Produit fait pour la balade',
+      ),
+
+      array(
+        'name' => 'Basket-Spider',
+        'price' => '90€',
+        'size' =>'43',
+        'src' => 'img/spider.jpg',
+        'color' =>'blanc',
+        'stock' => 'oui',
+        'summary' => 'Produit fait pour la sortie de spider-man',
+        ),
+
+        array(
+          'name' => 'Basket-Reb',
+          'price' => '150€',
+          'size' =>'43',
+          'src' => 'img/reb.jpg',
+          'color' =>'blanc',
+          'stock' => 'oui',
+          'summary' => 'Produit fait pour craner',
+        ),
+);
+
+  ?>
+
+
 <div class="container-fluid my-5">
   <div class="row">
 
+    <?php foreach($products as $key => $value){ ?>
+
       <div class="product col-md-3 col-sm-6">
-        <a href="product-dunk.php">
-          <img class="img-fluid" width="250" src="img/basketdunk.jpg" alt="basketdunk">
+        <a href="product.php?index=<?php echo $key; ?>">
+          <img class="img-fluid" width="250" src="<?php echo $value['src'] ?>" alt="basketdunk">
         </a>
           <div class="spec">
-            <p>Basket-Dunk</p>
-            <p class="price">80 €</p>
+            <p><?php echo $value['name'] ?></p>
+            <p class="price"><?php echo $value['price'] ?></p>
         </div>
       </div>
 
-      <div class="product col-md-3 col-sm-6">
-        <a href="product-ceyue.php">
-          <img class="img-fluid" width="250" src="img/ceyue.jpg" alt="basket-ceyue">
-        </a>
-          <div class="spec">
-            <p>Basket-Ceyue</p>
-            <p class="price"> 120 €</p>
-          </div>
-      </div>
+      <?php
 
-      <div class="product col-md-3 col-sm-6">
-        <a href="product-spider.php">
-          <img class="img-fluid" width="250" src="img/spider.jpg" alt="basket-spider">
-        </a>
-        <div class="spec">
-          <p>Basket-Spider</p>
-          <p class="price">90 €</p>
-        </div>
-      </div>
+      }
 
-      <div class="product col-md-3 col-sm-6">
-        <a href ="product-reb.php">
-          <img class="img-fluid" width="250" src="img/reb.jpg" alt="basket-reb">
-        </a>
-        <div class="spec">
-          <p>Basket-Reb</p>
-          <p class="price">150 €</p>
-        </div>
-      </div>
+      ?>
+
   </div>
 </div>
+
 
 
 <?php include("footer.php"); ?>

@@ -100,13 +100,14 @@ textarea {
 /*header*/
   header{
     display: block;
-    border-bottom: 2px solid lightgrey;
+    background-color: #191919;
+    padding : 10px 0px 10px 0px;
   }
 
   header a{
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    color : grey;
+    font-size: 17px;
+    color : red;
   }
 
   header .main{
@@ -115,18 +116,21 @@ textarea {
 
   header a:hover{
     text-decoration: none;
-    color: black;
+    color: lightgrey;
     transition: 0.5s;
   }
 
   /*footer*/
+  footer{
+    background-color: #191919;
+    padding-bottom: 3px;
+  }
 
   footer .social{
     display: flex;
     width : 100%;
-    margin-top: 170px;
+    margin-top: 190px;
     justify-content: flex-end;
-    border-top: 2px solid lightgrey;
   }
 
   footer .facebook, .twitter{
@@ -134,11 +138,11 @@ textarea {
   }
 
   footer i{
-    color : black;
+    color : red;
   }
 
   footer i:hover{
-    color : grey;
+    color : lightgrey;
     transition: 0.8s;
   }
 
