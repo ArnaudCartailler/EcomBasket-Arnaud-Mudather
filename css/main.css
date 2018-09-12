@@ -154,7 +154,7 @@ textarea {
   }
 
   .container-fluid .row .product{
-    margin-top: 102px;
+    margin-top: 147px;
   }
 
   .container-fluid .row .product:hover{
@@ -180,6 +180,11 @@ textarea {
     font-family: serif;
     font-weight: bold;
     line-height: 8px;
+    color : black;
+  }
+
+  .container-fluid .row a:hover{
+    text-decoration: none;
   }
 
   .container-fluid .row .spec .price{
@@ -191,7 +196,7 @@ textarea {
 /*Product page*/
 
 .container-fluid .row .img-product img{
-  margin-top : 135px;
+  margin-top : 180px;
   width : 100%;
 }
 
