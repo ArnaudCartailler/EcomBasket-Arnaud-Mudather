@@ -161,6 +161,14 @@ textarea {
     border : 1px solid grey;
   }
 
+  .container-fluid .row .product p{
+    color : black;
+  }
+
+  .link_product:hover{
+    text-decoration: none;
+  }
+
   .container-fluid .row img{
     width : auto;
   }
