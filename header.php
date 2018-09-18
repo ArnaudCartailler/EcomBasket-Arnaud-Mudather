@@ -26,16 +26,20 @@
     <div class="container-fluid">
       <div class="row w-100">
 
-        <div class="enterprise col-md-6 col-xs-6">
+        <div class="enterprise col-md-3 col-xs-6">
           <a href="index.php">iShoesYou</a>
         </div>
 
-        <div class="main col-md-6 col-xs-6">
-          <a href="connexion.php">Connection</a>
+        <div class="main col-md-3 col-xs-6">
+          <a href="index.php">Accueil</a>
         </div>
 
-        <div class="main col-md-6 col-xs-6">
-          <a href="index.php">Accueil</a>
+        <div class="main col-md-3 col-xs-6">
+          <a href="contact.php">Contact</a>
+        </div>
+
+        <div class="main col-md-3 col-xs-6">
+          <a href="connexion.php">Connection</a>
         </div>
     </div>
   </div>

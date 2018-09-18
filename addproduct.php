@@ -37,6 +37,9 @@
                        die('Erreur : '.$e->getMessage());
                  }
 
+
+                 
+
            // Attempt insert query execution
            try{
 
