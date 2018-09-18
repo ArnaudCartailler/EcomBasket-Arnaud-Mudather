@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+  <?php include("header.php"); ?>
 
 
         <form action="addproduct.php" method="post" enctype="multipart/form-data">
