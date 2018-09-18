@@ -8,7 +8,7 @@ if(isset($_POST['valid']) AND !empty($_POST['valid'])){
     $email = $_POST['email'];
     $mess = $_POST['mess'];
 
-    echo 'Salut '. $firstname.' '. $lastname.' . <br/><br />';
+    echo '<br /><br />' . '<br />Salut <br />'. $firstname.' '. $lastname.' . <br/>';
     echo '<br/>Ce message :' . " ' ". $mess. ' '. "'" . ' a été envoyé.<br />';
 }
 

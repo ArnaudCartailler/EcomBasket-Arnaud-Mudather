@@ -21,7 +21,7 @@
 
 <body>
 
-<header>
+<header class="fixed-top">
 
     <div class="container-fluid">
       <div class="row w-100">

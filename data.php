@@ -7,9 +7,9 @@ $products = array (
     'price' => '80€',
     'size' =>'43',
     'src' => 'img/basketdunk.jpg',
-    'color' =>'blanc',
-    'stock' => 'oui',
-    'summary' => 'Produit fait pour la pratique du basket-ball',
+    'color' =>'white',
+    'stock' => 'Oui',
+    'summary' => 'Produit fait pour la pratique du basket-ball.',
     ),
 
     array(
@@ -17,9 +17,9 @@ $products = array (
       'price' => '120€',
       'size' =>'43',
       'src' => 'img/ceyue.jpg',
-      'color' =>'blanc',
-      'stock' => 'oui',
-      'summary' => 'Produit fait pour la balade',
+      'color' =>'white',
+      'stock' => 'Oui',
+      'summary' => 'Produit fait pour la balade.',
       ),
 
       array(
@@ -27,9 +27,9 @@ $products = array (
         'price' => '90€',
         'size' =>'43',
         'src' => 'img/spider.jpg',
-        'color' =>'blanc',
-        'stock' => 'oui',
-        'summary' => 'Produit fait pour la sortie de spider-man',
+        'color' =>'white',
+        'stock' => 'Oui',
+        'summary' => 'Produit fait pour la sortie de spider-man.',
         ),
 
         array(
@@ -37,10 +37,10 @@ $products = array (
           'price' => '150€',
           'size' =>'43',
           'src' => 'img/reb.jpg',
-          'color' =>'blanc',
-          'stock' => 'oui',
-          'summary' => 'Produit fait pour craner',
+          'color' =>'white',
+          'stock' => 'Oui',
+          'summary' => 'Produit fait pour craner.',
         ),
 );
 
-?>
+  ?>

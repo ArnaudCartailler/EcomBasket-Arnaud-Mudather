@@ -1,4 +1,3 @@
-
 <?php include("header.php"); ?>
 
 <?php include("data.php"); ?>
@@ -14,6 +13,7 @@
             <p><?php echo $value['name'] ?></p>
             <p class="price"><?php echo $value['price'] ?></p>
         </div>
+        </a>
       </div>
     </a>
       <?php
