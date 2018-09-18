@@ -123,13 +123,13 @@ textarea {
   /*footer*/
   footer{
     background-color: #191919;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
   }
 
   footer .social{
     display: flex;
     width : 100%;
-    margin-top: 190px;
+    margin-top: 170px;
     justify-content: flex-end;
   }
 
@@ -154,7 +154,7 @@ textarea {
   }
 
   .container-fluid .row .product{
-    margin-top: 10%;
+    margin-top: 147px;
   }
 
   .container-fluid .row .product:hover{
@@ -188,6 +188,11 @@ textarea {
     font-family: serif;
     font-weight: bold;
     line-height: 8px;
+    color : black;
+  }
+
+  .container-fluid .row a:hover{
+    text-decoration: none;
   }
 
   .container-fluid .row .spec .price{
@@ -196,12 +201,38 @@ textarea {
     color: grey;
   }
 
+/*Product page*/
+
+.container-fluid .row .img-product img{
+  margin-top : 180px;
+  width : 100%;
+}
 
 
+.container-fluid .row .spec-product .name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+}
 
+.container-fluid .row .spec-product .price{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color : grey;
+}
 
+.container-fluid .row .spec-product .price{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color : grey;
+}
 
-
+.container-fluid .row .spec-product .size, .color, .stock, .sum{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color : black;
+}
 
 
 
