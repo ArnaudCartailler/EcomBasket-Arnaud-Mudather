@@ -1,7 +1,7 @@
   <?php include("header.php"); ?>
 
 
-        <form action="addproduct.php" method="post" enctype="multipart/form-data">
+        <form action="addproduct.php" method="post" enctype="multipart/form-data" class="my-5">
 
                           <p>Veuillez taper le nom du produit:</p>
                             <input type="text" name="name" />
@@ -38,7 +38,7 @@
                  }
 
 
-                 
+
 
            // Attempt insert query execution
            try{

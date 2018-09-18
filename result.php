@@ -10,6 +10,11 @@ if(isset($_POST['valid']) AND !empty($_POST['valid'])){
 
     echo '<br /><br />' . '<br />Salut <br />'. $firstname.' '. $lastname.' . <br/>';
     echo '<br/>Ce message :' . " ' ". $mess. ' '. "'" . ' a été envoyé.<br />';
+
+} else {
+  
+  echo "veuillez renseigner les champs";
+
 }
 
 

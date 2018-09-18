@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 
-<form action="result.php" method="post" enctype="multipart/form-data">
+<form action="result.php" method="post" enctype="multipart/form-data" class="my-5">
 
                           <p>Veuillez taper votre prénom :</p>
                             <input type="text" name="firstname" />
